@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "E"
+  ],
+  "key": {
+    "#": {
+      "item": "skyblockexpanded:end_frame_engraving"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_portal_frame",
+    "count": 1
+  }
+}

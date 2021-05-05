@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: 1.16.5_SkyblockExpanded
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2021-04-26T13:57:23+0100
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

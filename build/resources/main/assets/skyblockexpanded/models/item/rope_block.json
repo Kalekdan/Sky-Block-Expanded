@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "skyblockexpanded:items/rope_block"
+  }
+}
