@@ -1,4 +1,6 @@
 {
-  "block.skyblockexpanded.rope_block": "Rope Block",
-  "item.skyblockexpanded.rope_block": "Rope Item"
+  "block.skyblockexpanded.rope_block": "Rope",
+  "item.skyblockexpanded.rope_block": "Rope Item",
+  "item.skyblockexpanded.life_essence": "Life Essence",
+  "item.skyblockexpanded.end_frame_engraving": "End Frame Engraving"
 }
