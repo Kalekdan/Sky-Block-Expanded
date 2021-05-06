@@ -1,5 +1,6 @@
 com/pixolestudios/skyblockexpanded/SkyBlockExpandedMod.java
  com.pixolestudios.skyblockexpanded.SkyBlockExpandedMod
+ com.pixolestudios.skyblockexpanded.SkyBlockExpandedMod$1
 com/pixolestudios/skyblockexpanded/blocks/StartupCommon.java
  com.pixolestudios.skyblockexpanded.blocks.StartupCommon
 com/pixolestudios/skyblockexpanded/items/StartupClientOnly.java

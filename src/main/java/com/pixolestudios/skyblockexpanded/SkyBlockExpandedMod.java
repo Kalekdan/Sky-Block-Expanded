@@ -1,5 +1,10 @@
 package com.pixolestudios.skyblockexpanded;
 
+import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -18,6 +23,12 @@ public class SkyBlockExpandedMod
 
     public static IEventBus MOD_EVENT_BUS;
 
+    public static final ItemGroup TAB_SBE = new ItemGroup(1, "SkyBlock Expanded") {
+        @OnlyIn(Dist.CLIENT)
+        public ItemStack makeIcon() {
+            return new ItemStack(Blocks.BLUE_ORCHID);
+        }
+    };
 
     public SkyBlockExpandedMod() {
 

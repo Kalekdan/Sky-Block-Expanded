@@ -1,5 +1,6 @@
 package com.pixolestudios.skyblockexpanded.blocks;
 
+import com.pixolestudios.skyblockexpanded.SkyBlockExpandedMod;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -26,7 +27,7 @@ public class StartupCommon
     public static void onItemsRegistration(final RegistryEvent.Register<Item> itemRegisterEvent) {
         // We need to create a BlockItem so the player can carry this block in their hand and it can appear in the inventory
         final int MAXIMUM_STACK_SIZE = 64;  // player can only hold 64 of this block in their hand at once
-        Item.Properties ropeItemProperties = new Item.Properties().stacksTo(MAXIMUM_STACK_SIZE).tab(ItemGroup.TAB_MISC);  // which inventory tab?
+        Item.Properties ropeItemProperties = new Item.Properties().stacksTo(MAXIMUM_STACK_SIZE).tab(SkyBlockExpandedMod.TAB_SBE);  // which inventory tab?
         ropeItemBlock = new BlockItem(ropeBlock, ropeItemProperties);
         ropeItemBlock.setRegistryName(ropeBlock.getRegistryName());
         itemRegisterEvent.getRegistry().register(ropeItemBlock);
